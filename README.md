@@ -9,7 +9,7 @@
 import cv2
 import matplotlib.pyplot as plt
 # Read the image
-img = cv2.imread('melkin.jpg',cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('nar.jpg',cv2.IMREAD_GRAYSCALE)
 # Apply Gaussian blur to reduce noise
 blurred =cv2.GaussianBlur(img, (5,5),0)
 # Detect edges using Canny
